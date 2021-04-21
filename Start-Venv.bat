@@ -1,0 +1,1 @@
+start cmd /k "venv\Scripts\Activate.bat & cls & echo Checking for Python-NBT updates... & pip install --upgrade python-nbt & python Parse.py"
