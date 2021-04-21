@@ -19,6 +19,8 @@ Move an NBT file into the same folder as the scripts. Type the name of the file 
 The end result is a folder, which can be moved into your datapack files of the world.
 Run `/datapack list`,  then `/datapack enable {name of pack}`. From there, simply run the command `/function {name of structure}` to start it!
 
+If you would like to change the version that the Datapack is building for, go to line 66 in `Parse.py`, and replace the 7 with the [correct number](https://minecraft.fandom.com/wiki/Pack_format)
+
 *Be advised, large structures may cause server lag. Anything over 64,000 blocks will not be created, unless the max commands is turned up.*
 
 
