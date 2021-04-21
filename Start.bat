@@ -1,0 +1,1 @@
+start cmd /k "venv\Scripts\Activate.bat & cls & echo Booting up... & python Parse.py"
