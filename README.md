@@ -13,7 +13,9 @@ This script uses that data to create a Minecraft Datapack. By enabling the pack,
 
 ### Installation & Usage
 To run the script, download the zipped file from the Releases tab, and extract the downloaded file.
-Run `Start.bat`, and move an NBT file into the same folder. Type the name of the file (*no `.nbt`*) into the console
+Run one of the `Start.bat` scripts. `NoVenv` means it will launch in your global python space, and might not be the best option if you like to keep your libraries tidy.
+`Venv` will require you to have either created your own Virtual Enviroment, and placed it in the same folder as `Parse.py` and the start script, or it will use the Virtual Enviroment included in the release version.
+Move an NBT file into the same folder as the scripts. Type the name of the file (*no `.nbt`*) into the console
 The end result is a folder, which can be moved into your datapack files of the world.
 Run `/datapack list`,  then `/datapack enable {name of pack}`. From there, simply run the command `/function {name of structure}` to start it!
 
